@@ -1,0 +1,2434 @@
+
+Microsoft (R) Windows (R) Operating System Group Policy Result tool v2.0
+c Microsoft Corporation. All rights reserved.
+
+Created on ?4/?30/?2026 at 10:16:22 AM
+
+
+RSOP data for DOMAIN\SPETS on PC1 : Logging Mode
+-------------------------------------------------
+
+OS Configuration:            Member Workstation
+OS Version:                  10.0.26200
+Site Name:                   Default-First-Site-Name
+Roaming Profile:             N/A
+Local Profile:               C:\Users\SPETS
+Connected over a slow link?: No
+
+
+COMPUTER SETTINGS
+------------------
+    CN=PC1,OU=toojaamad,OU=ettevote,DC=domain,DC=local
+    Last time Group Policy was applied: 4/30/2026 at 8:56:35 AM
+    Group Policy was applied from:      DOMAINC1.domain.local
+    Group Policy slow link threshold:   500 kbps
+    Domain Name:                        DOMAIN
+    Domain Type:                        Windows 2008 or later
+
+    Applied Group Policy Objects
+    -----------------------------
+        blokeeritud veebilehed
+        Password Policy
+        USB Valgenimekiri (Whitelist)
+        CIS
+        Default Domain Policy
+
+    The following GPOs were not applied because they were filtered out
+    -------------------------------------------------------------------
+        Local Group Policy
+            Filtering:  Not Applied (Empty)
+
+    The computer is a part of the following security groups
+    -------------------------------------------------------
+        BUILTIN\Administrators
+        Everyone
+        BUILTIN\Users
+        NT AUTHORITY\NETWORK
+        NT AUTHORITY\Authenticated Users
+        This Organization
+        PC1$
+        Domain Computers
+        Authentication authority asserted identity
+        System Mandatory Level
+        
+    Resultant Set Of Policies for Computer
+    ---------------------------------------
+
+        Software Installations
+        ----------------------
+            N/A
+
+        Startup Scripts
+        ---------------
+            N/A
+
+        Shutdown Scripts
+        ----------------
+            N/A
+
+        Account Policies
+        ----------------
+            GPO: Default Domain Policy
+                Policy:            MaximumPasswordAge
+                Computer Setting:  90
+
+            GPO: Default Domain Policy
+                Policy:            LockoutBadCount
+                Computer Setting:  3
+
+            GPO: Password Policy
+                Policy:            LockoutDuration
+                Computer Setting:  30
+
+            GPO: Default Domain Policy
+                Policy:            MinimumPasswordAge
+                Computer Setting:  1
+
+            GPO: Password Policy
+                Policy:            MaximumPasswordAge
+                Computer Setting:  72
+
+            GPO: Password Policy
+                Policy:            MinimumPasswordAge
+                Computer Setting:  1
+
+            GPO: Default Domain Policy
+                Policy:            MinimumPasswordLength
+                Computer Setting:  12
+
+            GPO: Default Domain Policy
+                Policy:            LockoutDuration
+                Computer Setting:  30
+
+            GPO: Password Policy
+                Policy:            ResetLockoutCount
+                Computer Setting:  30
+
+            GPO: Default Domain Policy
+                Policy:            PasswordHistorySize
+                Computer Setting:  5
+
+            GPO: Default Domain Policy
+                Policy:            ResetLockoutCount
+                Computer Setting:  30
+
+            GPO: Password Policy
+                Policy:            LockoutBadCount
+                Computer Setting:  5
+
+            GPO: Password Policy
+                Policy:            PasswordHistorySize
+                Computer Setting:  24
+
+            GPO: Password Policy
+                Policy:            MinimumPasswordLength
+                Computer Setting:  14
+
+        Audit Policy
+        ------------
+            N/A
+
+        User Rights
+        -----------
+            GPO: CIS
+                Policy:            TakeOwnershipPrivilege
+                Computer Setting:  N/A
+
+            GPO: CIS
+                Policy:            RestorePrivilege
+                Computer Setting:  N/A
+
+            GPO: CIS
+                Policy:            DebugPrivilege
+                Computer Setting:  N/A
+
+            GPO: CIS
+                Policy:            TcbPrivilege
+                Computer Setting:  local system
+                                   
+            GPO: CIS
+                Policy:            BackupPrivilege
+                Computer Setting:  N/A
+
+            GPO: Password Policy
+                Policy:            IncreaseQuotaPrivilege
+                Computer Setting:  Administrators
+                                   
+        Security Options
+        ----------------
+            GPO: Password Policy
+                Policy:            PasswordComplexity
+                Computer Setting:  Enabled
+
+            GPO: Password Policy
+                Policy:            ClearTextPassword
+                Computer Setting:  Not Enabled
+
+            GPO: Default Domain Policy
+                Policy:            ClearTextPassword
+                Computer Setting:  Not Enabled
+
+            GPO: Default Domain Policy
+                Policy:            ForceLogoffWhenHourExpire
+                Computer Setting:  Not Enabled
+
+            GPO: Default Domain Policy
+                Policy:            PasswordComplexity
+                Computer Setting:  Enabled
+
+            GPO: CIS
+                Policy:            EnableGuestAccount
+                Computer Setting:  Not Enabled
+
+            GPO: Default Domain Policy
+                Policy:            RequireLogonToChangePassword
+                Computer Setting:  Not Enabled
+
+            GPO: Default Domain Policy
+                Policy:            LSAAnonymousNameLookup
+                Computer Setting:  Not Enabled
+
+            GPO: CIS
+                Policy:            LSAAnonymousNameLookup
+                Computer Setting:  Not Enabled
+
+            GPO: CIS
+                Policy:            EnableAdminAccount
+                Computer Setting:  Not Enabled
+
+            GPO: CIS
+                Policy:            NewAdministratorName
+                Computer Setting:  Enabled
+
+            GPO: CIS
+                Policy:            NewGuestName
+                Computer Setting:  Enabled
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59030
+                ValueName:         MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\CachedLogonsCount
+                Computer Setting:  4
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59067
+                ValueName:         MACHINE\System\CurrentControlSet\Control\Lsa\MSV1_0\NTLMMinServerSec
+                Computer Setting:  537395200
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59105
+                ValueName:         MACHINE\System\CurrentControlSet\Control\Lsa\MSV1_0\RestrictSendingNTLMTraffic
+                Computer Setting:  2
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59142
+                ValueName:         MACHINE\System\CurrentControlSet\Services\LanManServer\Parameters\SmbServerNameHardeningLevel
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59158
+                ValueName:         MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\DontDisplayUserName
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59120
+                ValueName:         MACHINE\System\CurrentControlSet\Control\Lsa\MSV1_0\allownullsessionfallback
+                Computer Setting:  0
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59072
+                ValueName:         MACHINE\System\CurrentControlSet\Services\LDAP\LDAPClientIntegrity
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59131
+                ValueName:         MACHINE\System\CurrentControlSet\Control\Lsa\MSV1_0\AuditReceivingNTLMTraffic
+                Computer Setting:  2
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59157
+                ValueName:         MACHINE\System\CurrentControlSet\Control\Lsa\RestrictRemoteSAM
+                Computer Setting:  O:BAG:BAD:(A;;RC;;;BA)
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59045
+                ValueName:         MACHINE\System\CurrentControlSet\Services\LanManServer\Parameters\EnableForcedLogOff
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59047
+                ValueName:         MACHINE\System\CurrentControlSet\Control\Lsa\RestrictAnonymousSAM
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59078
+                ValueName:         MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\ShutdownWithoutLogon
+                Computer Setting:  0
+
+            GPO: CIS
+                Policy:            @scecli.dll,-8200
+                ValueName:         MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\ConsentPromptBehaviorAdmin
+                Computer Setting:  2
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59132
+                ValueName:         MACHINE\System\CurrentControlSet\Services\Netlogon\Parameters\AuditNTLMInDomain
+                Computer Setting:  7
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59022
+                ValueName:         MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\DisableCAD
+                Computer Setting:  0
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59042
+                ValueName:         MACHINE\System\CurrentControlSet\Services\LanManServer\Parameters\AutoDisconnect
+                Computer Setting:  15
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59034
+                ValueName:         MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\ScRemoveOption
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @scecli.dll,-8205
+                ValueName:         MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\ValidateAdminCodeSignatures
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59059
+                ValueName:         MACHINE\System\CurrentControlSet\Control\Lsa\LmCompatibilityLevel
+                Computer Setting:  5
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59013
+                ValueName:         MACHINE\System\CurrentControlSet\Services\NTDS\Parameters\LDAPServerIntegrity
+                Computer Setting:  2
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59051
+                ValueName:         MACHINE\System\CurrentControlSet\Services\LanManServer\Parameters\NullSessionPipes
+                Computer Setting:  
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59043
+                ValueName:         MACHINE\System\CurrentControlSet\Services\LanManServer\Parameters\RequireSecuritySignature
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59017
+                ValueName:         MACHINE\System\CurrentControlSet\Services\Netlogon\Parameters\MaximumPasswordAge
+                Computer Setting:  30
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59066
+                ValueName:         MACHINE\System\CurrentControlSet\Control\Lsa\MSV1_0\NTLMMinClientSec
+                Computer Setting:  537395200
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59005
+                ValueName:         MACHINE\System\CurrentControlSet\Control\Print\Providers\LanMan Print Services\Servers\AddPrinterDrivers
+                Computer Setting:  1
+
+            GPO: Password Policy
+                Policy:            @wsecedit.dll,-755
+                ValueName:         MACHINE\System\CurrentControlSet\Control\SAM\RelaxMinimumPasswordLengthLimits
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59155
+                ValueName:         MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\InactivityTimeoutSecs
+                Computer Setting:  900
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59052
+                ValueName:         MACHINE\System\CurrentControlSet\Services\LanManServer\Parameters\NullSessionShares
+                Computer Setting:  
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59050
+                ValueName:         MACHINE\System\CurrentControlSet\Services\LanManServer\Parameters\RestrictNullSessAccess
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59044
+                ValueName:         MACHINE\System\CurrentControlSet\Services\LanManServer\Parameters\EnableSecuritySignature
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59086
+                ValueName:         MACHINE\Software\Policies\Microsoft\Cryptography\ForceKeyProtection
+                Computer Setting:  2
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59085
+                ValueName:         MACHINE\System\CurrentControlSet\Control\Lsa\FIPSAlgorithmPolicy\Enabled
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59129
+                ValueName:         MACHINE\System\CurrentControlSet\Control\Lsa\pku2u\AllowOnlineID
+                Computer Setting:  0
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59040
+                ValueName:         MACHINE\System\CurrentControlSet\Services\LanmanWorkstation\Parameters\EnableSecuritySignature
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59049
+                ValueName:         MACHINE\System\CurrentControlSet\Control\Lsa\EveryoneIncludesAnonymous
+                Computer Setting:  0
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59041
+                ValueName:         MACHINE\System\CurrentControlSet\Services\LanmanWorkstation\Parameters\EnablePlainTextPassword
+                Computer Setting:  0
+
+            GPO: CIS
+                Policy:            @scecli.dll,-8201
+                ValueName:         MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\ConsentPromptBehaviorUser
+                Computer Setting:  0
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59054
+                ValueName:         MACHINE\System\CurrentControlSet\Control\SecurePipeServers\Winreg\AllowedExactPaths\Machine
+                Computer Setting:  System\CurrentControlSet\Control\ProductOptions,System\CurrentControlSet\Control\Server Applications,Software\Microsoft\Windows NT\CurrentVersion
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59029
+                ValueName:         MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\LegalNoticeCaption
+                Computer Setting:  Warning
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59058
+                ValueName:         MACHINE\System\CurrentControlSet\Control\Lsa\NoLMHash
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59023
+                ValueName:         MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\DontDisplayLastUserName
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59028
+                ValueName:         MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\LegalNoticeText
+                Computer Setting:  Tere
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59039
+                ValueName:         MACHINE\System\CurrentControlSet\Services\LanmanWorkstation\Parameters\RequireSecuritySignature
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @scecli.dll,-8207
+                ValueName:         MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\FilterAdministratorToken
+                Computer Setting:  1
+
+            GPO: Default Domain Policy
+                Policy:            @wsecedit.dll,-59058
+                ValueName:         MACHINE\System\CurrentControlSet\Control\Lsa\NoLMHash
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59121
+                ValueName:         MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\Kerberos\Parameters\SupportedEncryptionTypes
+                Computer Setting:  2147483640
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59021
+                ValueName:         MACHINE\System\CurrentControlSet\Services\Netlogon\Parameters\RequireStrongKey
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @scecli.dll,-8202
+                ValueName:         MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\EnableInstallerDetection
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59018
+                ValueName:         MACHINE\System\CurrentControlSet\Services\Netlogon\Parameters\RequireSignOrSeal
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59048
+                ValueName:         MACHINE\System\CurrentControlSet\Control\Lsa\RestrictAnonymous
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59108
+                ValueName:         MACHINE\System\CurrentControlSet\Control\Lsa\MSV1_0\RestrictReceivingNTLMTraffic
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59046
+                ValueName:         MACHINE\System\CurrentControlSet\Control\Lsa\DisableDomainCreds
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @scecli.dll,-8203
+                ValueName:         MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\EnableLUA
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59133
+                ValueName:         MACHINE\System\CurrentControlSet\Control\Lsa\UseMachineId
+                Computer Setting:  1
+
+            GPO: CIS
+                Policy:            @wsecedit.dll,-59031
+                ValueName:         MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\PasswordExpiryWarning
+                Computer Setting:  14
+
+        Event Log Settings
+        ------------------
+            N/A
+
+        Restricted Groups
+        -----------------
+            N/A
+
+        System Services
+        ---------------
+            N/A
+
+        Registry Settings
+        -----------------
+            N/A
+
+        File System Settings
+        --------------------
+            N/A
+
+        Public Key Policies
+        -------------------
+            N/A
+
+        Administrative Templates
+        ------------------------
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1a06
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessMessaging_ForceAllowTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\2000
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessContacts
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\Installer\DisableLUAPatching
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsUpdate\ManagePreviewBuildsPolicyValue
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\AppHVSI\AllowPersistence
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\Terminal Services\fAllowUnsolicited
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\EventLog\Application\MaxSize
+                Value:       0, 128, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1800
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Microsoft\Windows\CurrentVersion\Policies\System\AutomaticRestartSignOnConfig
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsStore\RemoveWindowsStore
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\PrivateProfile\Logging\LogDroppedPackets
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\AppHVSI\AllowCameraMicrophoneRedirection
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: USB Valgenimekiri (Whitelist)
+                Folder Id: Software\Policies\Microsoft\Windows\DeviceInstall\Restrictions\DenyInstanceIDs\1
+                Value:       85, 0, 83, 0, 66, 0, 92, 0, 86, 0, 73, 0, 68, 0, 95, 0, 56, 0, 53, 0, 54, 0, 52, 0, 38, 0, 80, 0, 73, 0, 68, 0, 95, 0, 49, 0, 48, 0, 48, 0, 48, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\AppHVSI\AppHVSIClipboardFileType
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\DeviceGuard\HVCIMATRequired
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppCompat\DisableInventory
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Microsoft\Windows\CurrentVersion\Policies\System\HideFastUserSwitching
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsUpdate\DeferQualityUpdates
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\2100
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\Windows Search\AllowIndexingEncryptedStoresOrItems
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender Security Center\Device security\UILockdown
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\PowerShell\ModuleLogging\ModuleNames\local system
+                Value:       108, 0, 111, 0, 99, 0, 97, 0, 108, 0, 32, 0, 115, 0, 121, 0, 115, 0, 116, 0, 101, 0, 109, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\PowerShell\ModuleLogging\EnableModuleLogging
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1200
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessCamera_ForceAllowTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\DomainProfile\Logging\LogDroppedPackets
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Camera\AllowCamera
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\Personalization\NoLockScreenCamera
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessAccountInfo_UserInControlOfTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\2300
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender\Spynet\SubmitSamplesConsent
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\PublicProfile\Logging\LogSuccessfulConnections
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessRadios
+                State:       disabled
+
+            GPO: blokeeritud veebilehed
+                Folder Id: Software\Policies\Microsoft\Edge\URLBlocklist\4
+                Value:       110, 0, 101, 0, 116, 0, 102, 0, 108, 0, 105, 0, 120, 0, 46, 0, 99, 0, 111, 0, 109, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\Windows Search\AllowCortana
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WinRM\Client\AllowBasic
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender\PUAProtection
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\Windows Search\AllowCloudSearch
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessRadios_ForceAllowTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WCN\Registrars\HigherPrecedenceRegistrar
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsStore\AutoDownload
+                Value:       2, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\DeviceGuard\ConfigureKernelShadowStacksLaunch
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WCN\Registrars\DisableFlashConfigRegistrar
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender Security Center\Account protection\UILockdown
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\AppHVSI\SaveFilesToHost
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1804
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\EventLog\System\MaxSize
+                Value:       0, 128, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\Terminal Services\UserAuthentication
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessCalendar_UserInControlOfTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\Terminal Services\fDisableClip
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1807
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsUpdate\AU\NoAutoUpdate
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\PowerShell\Transcription\OutputDirectory
+                Value:       0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender Security Center\Device performance and health\UILockdown
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\PublicProfile\DefaultInboundAction
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1004
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessCalendar_ForceAllowTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\MicrosoftEdge\Extensions\ExtensionsEnabled
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\W32time\TimeProviders\NtpClient\SpecialPollInterval
+                Value:       0, 4, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\PowerShell\Transcription\EnableInvocationHeader
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1605
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\PrivateProfile\EnableFirewall
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessTrustedDevices
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsUpdate\AU\ScheduledInstallDay
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsUpdate\AU\ScheduledInstallTime
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\Group Policy\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}\NoBackgroundPolicy
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender Security Center\Systray\HideSystray
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\180b
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\Terminal Services\MaxTicketExpiryUnits
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1406
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsStore\RequirePrivateStoreOnly
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessMessaging_ForceDenyTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1409
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\ASR\Rules\block executable content from email
+                Value:       101, 0, 110, 0, 97, 0, 98, 0, 108, 0, 101, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\NetworkProvider\HardenedPaths\\\*\SYSVOL
+                Value:       82, 0, 101, 0, 113, 0, 117, 0, 105, 0, 114, 0, 101, 0, 77, 0, 117, 0, 116, 0, 97, 0, 108, 0, 65, 0, 117, 0, 116, 0, 104, 0, 101, 0, 110, 0, 116, 0, 105, 0, 99, 0, 97, 0, 116, 0, 105, 0, 111, 0, 110, 0, 61, 0, 49, 0, 44, 0, 82, 0, 101, 0, 113, 0, 117, 0, 105, 0, 114, 0, 101, 0, 73, 0, 110, 0, 116, 0, 101, 0, 103, 0, 114, 0, 105, 0, 116, 0, 121, 0, 61, 0, 49, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender Security Center\Virus and threat protection\UILockdown
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\Printers\PointAndPrint\InForest
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\Network Protection\EnableNetworkProtection
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessMessaging
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender Security Center\Notifications\DisableEnhancedNotifications
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\2105
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\Personalization\NoLockScreenSlideshow
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\DataCollection\AllowTelemetry
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\NetworkProvider\HardenedPaths\\\*\NETLOGON
+                Value:       82, 0, 101, 0, 113, 0, 117, 0, 105, 0, 114, 0, 101, 0, 77, 0, 117, 0, 116, 0, 97, 0, 108, 0, 65, 0, 117, 0, 116, 0, 104, 0, 101, 0, 110, 0, 116, 0, 105, 0, 99, 0, 97, 0, 116, 0, 105, 0, 111, 0, 110, 0, 61, 0, 49, 0, 44, 0, 32, 0, 82, 0, 101, 0, 113, 0, 117, 0, 105, 0, 114, 0, 101, 0, 73, 0, 110, 0, 116, 0, 101, 0, 103, 0, 114, 0, 105, 0, 116, 0, 121, 0, 61, 0, 49, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsUpdate\BranchReadinessLevel
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsGetDiagnosticInfo_ForceAllowTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1809
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\PublicProfile\AllowLocalPolicyMerge
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CredUI\DisablePasswordReveal
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\Printers\PointAndPrint\TrustedServers
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessCallHistory_UserInControlOfTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\Windows Error Reporting\DontShowUI
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1601
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\DeviceInstall\Restrictions\DenyUnspecified
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\Appx\AllowAllTrustedApps
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\Device Metadata\PreventDeviceMetadataFromNetwork
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender\Real-Time Protection\DisableBehaviorMonitoring
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender\Scan\DisableRemovableDriveScanning
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\DataCollection\DoNotShowFeedbackNotifications
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender Security Center\Family options\UILockdown
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsUpdate\DeferFeatureUpdatesPeriodInDays
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoWebServices
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsUpdate\AU\AUOptions
+                Value:       4, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsUpdate\PauseQualityUpdatesStartTime
+                Value:       0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\LocationAndSensors\DisableLocation
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsUpdate\DeferFeatureUpdates
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessNotifications_ForceAllowTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsUpdate\SetDisableUXWUAccess
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1802
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessEmail_UserInControlOfTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessContacts_ForceDenyTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessRadios_UserInControlOfTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\EventLog\Security\MaxSize
+                Value:       32, 15, 3, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\PrivateProfile\DisableNotifications
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsGetDiagnosticInfo
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\SettingSync\DisableSettingSyncUserOverride
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\180a
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Microsoft\wcmsvc\wifinetworkmanager\config\AutoConnectAllowedOEM
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WCN\Registrars\EnableRegistrars
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1402
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessCamera_ForceDenyTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Biometrics\Credential Provider\Enabled
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender Security Center\Virus and threat protection\HideRansomwareRecovery
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: blokeeritud veebilehed
+                Folder Id: Software\Policies\Microsoft\Edge\URLBlocklist\2
+                Value:       105, 0, 110, 0, 115, 0, 116, 0, 97, 0, 103, 0, 114, 0, 97, 0, 109, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1803
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\PublicProfile\Logging\LogDroppedPackets
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\LocationAndSensors\DisableLocationScripting
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\W32time\Parameters\Type
+                Value:       78, 0, 84, 0, 53, 0, 68, 0, 83, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessCalendar_ForceDenyTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender Security Center\Firewall and network protection\UILockdown
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender Security Center\Device security\HideSecureBoot
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\2201
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessMicrophone_ForceAllowTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\2102
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CloudContent\DisableWindowsConsumerFeatures
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\2600
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: USB Valgenimekiri (Whitelist)
+                Folder Id: Software\Policies\Microsoft\Windows\DeviceInstall\Restrictions\DenyInstanceIDsRetroactive
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessNotifications_UserInControlOfTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\Terminal Services\fAllowUnsolicitedFullControl
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessMicrophone_UserInControlOfTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppInstaller\EnableExperimentalFeatures
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\RemovableStorageDevices\{53f56308-b6bf-11d0-94f2-00a0c91efb8b}\Deny_Execute
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessMicrophone_ForceDenyTheseApps
+                State:       disabled
+
+            GPO: blokeeritud veebilehed
+                Folder Id: Software\Policies\Microsoft\Edge\URLBlocklist\1
+                Value:       102, 0, 97, 0, 99, 0, 101, 0, 98, 0, 111, 0, 111, 0, 107, 0, 46, 0, 99, 0, 111, 0, 109, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessCamera
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\120a
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\MicrosoftEdge\PhishingFilter\PreventOverride
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CloudContent\DisableCloudOptimizedContent
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: blokeeritud veebilehed
+                Folder Id: Software\Policies\Microsoft\Edge\URLBlocklist\6
+                Value:       57, 0, 103, 0, 97, 0, 103, 0, 46, 0, 99, 0, 111, 0, 109, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1606
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\DeviceGuard\MachineIdentityIsolation
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WTDS\Components\NotifyPasswordReuse
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsUpdate\AllowOptionalContent
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\DeviceInstall\Restrictions\AllowAdminInstall
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsUpdate\AU\ScheduledInstallFourthWeek
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\RemovableStorageDevices\{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}\Deny_Execute
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1207
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\DomainProfile\DefaultOutboundAction
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\DeviceGuard\HypervisorEnforcedCodeIntegrity
+                Value:       2, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\Terminal Services\fAllowToGetHelp
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\OneDrive\DisableFileSyncNGSC
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\Rpc\RestrictRemoteClients
+                Value:       2, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessCalendar
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\2101
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\System\DeleteRoamingCache
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\System\NoLocalPasswordResetQuestions
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\MicrosoftEdge\Main\DoNotTrack
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging\EnableScriptBlockInvocationLogging
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessMessaging_UserInControlOfTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\MicrosoftEdge\PhishingFilter\PreventOverrideAppRepUnknown
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AdvertisingInfo\DisabledByGroupPolicy
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\Terminal Services\SecurityLayer
+                Value:       2, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\Installer\AlwaysInstallElevated
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1609
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender\DisableRoutinelyTakingAction
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1206
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\Printers\DisableWebPnPDownload
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WTDS\Components\CaptureThreatWindow
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\Terminal Services\fUseMailto
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\Terminal Services\MaxTicketExpiry
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\LanmanWorkstation\AllowInsecureGuestAuth
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WCN\Registrars\DisableInBand802DOT11Registrar
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\W32time\TimeProviders\NtpServer\Enabled
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1c00
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\PublicProfile\EnableFirewall
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1e05
+                Value:       0, 0, 1, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\Connect\AllowProjectionToPC
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessCallHistory_ForceDenyTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\StandardProfile\Services\FileAndPrint\Enabled
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppInstaller\EnableAppInstaller
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessNotifications
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\120c
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\DeliveryOptimization\DODownloadMode
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\2700
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1808
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessNotifications_ForceDenyTheseApps
+                State:       disabled
+
+            GPO: blokeeritud veebilehed
+                Folder Id: Software\Policies\Microsoft\Edge\URLBlocklist\3
+                Value:       116, 0, 105, 0, 107, 0, 116, 0, 111, 0, 107, 0, 46, 0, 99, 0, 111, 0, 109, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\StandardProfile\Services\FileAndPrint\RemoteAddresses
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessAccountInfo
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsRunInBackground_ForceDenyTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender\Real-Time Protection\DisableRealtimeMonitoring
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\Printers\PointAndPrint\RestrictDriverInstallationToAdministrators
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\System\UserPolicyMode
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\NetworkConnectivityStatusIndicator\NoActiveProbe
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessMotion_ForceDenyTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Microsoft\Windows\CurrentVersion\Policies\System\DisableAutomaticRestartSignOn
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessEmail
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\2301
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WCN\Registrars\DisableUPnPRegistrar
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\AppHVSI\AppHVSIClipboardSettings
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessContacts_ForceAllowTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WTDS\Components\NotifyMalicious
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\Installer\EnableUserControl
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WCN\Registrars\DisableWPDRegistrar
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\SettingSync\DisableSettingSync
+                Value:       2, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessCamera_UserInControlOfTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\PrivateProfile\Logging\LogSuccessfulConnections
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\DomainProfile\DefaultInboundAction
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\DomainProfile\RemoteAdminSettings\RemoteAddresses
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\DomainProfile\Logging\LogSuccessfulConnections
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\2400
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\ASR\Rules\block credential stealing
+                Value:       101, 0, 110, 0, 97, 0, 98, 0, 108, 0, 101, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessContacts_UserInControlOfTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\Printers\PointAndPrint\UpdatePromptSettings
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\AppHVSI\AllowAppHVSI_ProviderSet
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\PCHealth\ErrorReporting\DoReport
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\PrivateProfile\Logging\LogFilePath
+                Value:       37, 0, 115, 0, 121, 0, 115, 0, 116, 0, 101, 0, 109, 0, 114, 0, 111, 0, 111, 0, 116, 0, 37, 0, 92, 0, 115, 0, 121, 0, 115, 0, 116, 0, 101, 0, 109, 0, 51, 0, 50, 0, 92, 0, 108, 0, 111, 0, 103, 0, 102, 0, 105, 0, 108, 0, 101, 0, 115, 0, 92, 0, 102, 0, 105, 0, 114, 0, 101, 0, 119, 0, 97, 0, 108, 0, 108, 0, 92, 0, 112, 0, 102, 0, 105, 0, 114, 0, 101, 0, 119, 0, 97, 0, 108, 0, 108, 0, 46, 0, 108, 0, 111, 0, 103, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender Security Center\Device security\HideTPMTroubleshooting
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\MicrosoftEdge\PhishingFilter\EnabledV9
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsUpdate\AU\ScheduledInstallEveryWeek
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsRunInBackground_ForceAllowTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\Printers\RegisterSpoolerRemoteRpcEndPoint
+                Value:       2, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\DNSClient\EnableMulticast
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessTrustedDevices_ForceAllowTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\ASR\ExploitGuard_ASR_Rules
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\DeviceGuard\RequirePlatformSecurityFeatures
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsGetDiagnosticInfo_ForceDenyTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1208
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsUpdate\AU\ScheduledInstallThirdWeek
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsRunInBackground
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessMotion
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\PowerShell\Transcription\EnableTranscripting
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessEmail_ForceAllowTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\DeviceGuard\LsaCfgFlags
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1a03
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsStore\DisableStoreApps
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\Terminal Services\fEncryptRPCTraffic
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessCallHistory_ForceAllowTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessEmail_ForceDenyTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\PublicProfile\DisableNotifications
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\PassportForWork\UseHelloCertificatesAsSmartCardCertificates
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\Printers\PointAndPrint\ServerList
+                Value:       0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessMotion_ForceAllowTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\Windows Search\DisableWebSearch
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\Group Policy\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}\NoGPOListChanges
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\Terminal Services\fDenyTSConnections
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\Terminal Services\fAllowFullControl
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\System\ShellSmartScreenLevel
+                Value:       66, 0, 108, 0, 111, 0, 99, 0, 107, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1a00
+                Value:       0, 0, 1, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\2001
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1607
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessMotion_UserInControlOfTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WcmSvc\GroupPolicy\fBlockNonDomain
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\DomainProfile\Logging\LogFilePath
+                Value:       37, 0, 115, 0, 121, 0, 115, 0, 116, 0, 101, 0, 109, 0, 114, 0, 111, 0, 111, 0, 116, 0, 37, 0, 92, 0, 115, 0, 121, 0, 115, 0, 116, 0, 101, 0, 109, 0, 51, 0, 50, 0, 92, 0, 108, 0, 111, 0, 103, 0, 102, 0, 105, 0, 108, 0, 101, 0, 115, 0, 92, 0, 102, 0, 105, 0, 114, 0, 101, 0, 119, 0, 97, 0, 108, 0, 108, 0, 92, 0, 112, 0, 102, 0, 105, 0, 114, 0, 101, 0, 119, 0, 97, 0, 108, 0, 108, 0, 46, 0, 108, 0, 111, 0, 103, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender Security Center\Device security\DisableTpmFirmwareUpdateWarning
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WCN\Registrars\MaxWCNDeviceNumber
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Template Policies\InternetZoneTemplate
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\Messaging\AllowMessageSync
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\120b
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\Terminal Services\MinEncryptionLevel
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: blokeeritud veebilehed
+                Folder Id: Software\Policies\Microsoft\Edge\URLBlocklist\10
+                Value:       99, 0, 111, 0, 110, 0, 116, 0, 111, 0, 115, 0, 111, 0, 46, 0, 99, 0, 111, 0, 109, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\Personalization\NoLockScreen
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsUpdate\SetAllowOptionalContent
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessTrustedDevices_UserInControlOfTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\W32time\TimeProviders\NtpClient\EventLogFlags
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessAccountInfo_ForceDenyTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Biometrics\Enabled
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\ASR\Rules\Block office from creating child processes
+                Value:       101, 0, 110, 0, 97, 0, 98, 0, 108, 0, 101, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\2106
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\Windows Error Reporting\Disabled
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WcmSvc\GroupPolicy\fMinimizeConnections
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1201
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1a02
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\CurrentVersion\Winlogon\SyncForegroundPolicy
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessCallHistory
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\PolicyVersion
+                Value:       31, 2, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\W32time\Parameters\NtpServer
+                Value:       116, 0, 105, 0, 109, 0, 101, 0, 46, 0, 119, 0, 105, 0, 110, 0, 100, 0, 111, 0, 119, 0, 115, 0, 46, 0, 99, 0, 111, 0, 109, 0, 44, 0, 48, 0, 120, 0, 57, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender\DisableAntiSpyware
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\W32time\TimeProviders\NtpClient\ResolvePeerBackoffMaxTimes
+                Value:       7, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Template Policies\Internet
+                Value:       4, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\DomainProfile\DisableNotifications
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\System\EnableSmartScreen
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsUpdate\AU\NoAutoRebootWithLoggedOnUsers
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsUpdate\AU\ScheduledInstallFirstWeek
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CloudContent\DisableSoftLanding
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\2103
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\Network Protection\AllowNetworkProtectionOnWinServer
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\AppHVSI\AuditApplicationGuard
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\2401
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Microsoft\Windows\CurrentVersion\Policies\System\CredSSP\Parameters\AllowEncryptionOracle
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsUpdate\AU\AllowMUUpdateService
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Microsoft\Windows\CurrentVersion\Policies\System\Audit\ProcessCreationIncludeCmdLine_Enabled
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1608
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender\Scan\DisableEmailScanning
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\PassportForWork\Enabled
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\DomainProfile\EnableFirewall
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\LocationAndSensors\DisableSensors
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\2004
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Power\PowerSettings\0e796bdb-100d-47d6-a2d5-f7d2daa51f51\DCSettingIndex
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender Security Center\App and Browser protection\UILockdown
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessAccountInfo_ForceAllowTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessMicrophone
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1400
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging\EnableScriptBlockLogging
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsAI\AllowRecallEnablement
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\PublicProfile\AllowLocalIPsecPolicyMerge
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\PushNotifications\NoToastApplicationNotification
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsUpdate\AU\ScheduledInstallSecondWeek
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\2104
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\2200
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\PrivateProfile\Logging\LogFileSize
+                Value:       0, 64, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CredentialsDelegation\RestrictedRemoteAdministrationType
+                Value:       2, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender Security Center\App and Browser protection\DisallowExploitProtectionOverride
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\SQMClient\Windows\CEIPEnable
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1a04
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WTDS\Components\ServiceEnabled
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\DeviceGuard\EnableVirtualizationBasedSecurity
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\TabletPC\PreventHandwritingDataSharing
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WTDS\Components\NotifyUnsafeApp
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoDriveTypeAutoRun
+                Value:       255, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WCN\UI\DisableWcnUi
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\2500
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\2402
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\PublicProfile\Logging\LogFilePath
+                Value:       37, 0, 115, 0, 121, 0, 115, 0, 116, 0, 101, 0, 109, 0, 114, 0, 111, 0, 111, 0, 116, 0, 37, 0, 92, 0, 115, 0, 121, 0, 115, 0, 116, 0, 101, 0, 109, 0, 51, 0, 50, 0, 92, 0, 108, 0, 111, 0, 103, 0, 102, 0, 105, 0, 108, 0, 101, 0, 115, 0, 92, 0, 102, 0, 105, 0, 114, 0, 101, 0, 119, 0, 97, 0, 108, 0, 108, 0, 92, 0, 112, 0, 102, 0, 105, 0, 114, 0, 101, 0, 119, 0, 97, 0, 108, 0, 108, 0, 46, 0, 108, 0, 111, 0, 103, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1209
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1407
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WinRM\Client\AllowUnencryptedTraffic
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1a05
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\DomainProfile\RemoteAdminSettings\Enabled
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: blokeeritud veebilehed
+                Folder Id: Software\Policies\Microsoft\Edge\URLBlocklist\9
+                Value:       116, 0, 119, 0, 105, 0, 116, 0, 99, 0, 104, 0, 46, 0, 99, 0, 111, 0, 109, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\PrivateProfile\DefaultInboundAction
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1001
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsUpdate\DeferQualityUpdatesPeriodInDays
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WinRM\Service\AllowUnencryptedTraffic
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\W32time\TimeProviders\NtpClient\ResolvePeerBackoffMinutes
+                Value:       15, 0, 0, 0
+                State:       Enabled
+
+            GPO: USB Valgenimekiri (Whitelist)
+                Folder Id: Software\Policies\Microsoft\Windows\DeviceInstall\Restrictions\DenyInstanceIDs
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\DomainProfile\Logging\LogFileSize
+                Value:       0, 64, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\160A
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender\Spynet\SpynetReporting
+                Value:       2, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1405
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\Network Connections\NC_ShowSharedAccessUI
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: blokeeritud veebilehed
+                Folder Id: Software\Policies\Microsoft\Edge\URLBlocklist\8
+                Value:       111, 0, 108, 0, 105, 0, 98, 0, 101, 0, 116, 0, 46, 0, 101, 0, 101, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\DeviceGuard\ConfigureSystemGuardLaunch
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender\ServiceKeepAlive
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\Printers\PointAndPrint\NoWarningNoElevationOnInstall
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\2005
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CredentialsDelegation\RestrictedRemoteAdministration
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender\Real-Time Protection\DisableIOAVProtection
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\PassportForWork\DisablePostLogonProvisioning
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessRadios_ForceDenyTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\WindowsFirewall\PublicProfile\Logging\LogFileSize
+                Value:       0, 64, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsGetDiagnosticInfo_UserInControlOfTheseApps
+                State:       disabled
+
+            GPO: blokeeritud veebilehed
+                Folder Id: Software\Policies\Microsoft\Edge\URLBlocklist\7
+                Value:       120, 0, 120, 0, 120, 0, 46, 0, 99, 0, 111, 0, 109, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\DriverSearching\SearchOrderConfig
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\Terminal Services\fDisableCdm
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\W32time\TimeProviders\NtpClient\Enabled
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows NT\Printers\PointAndPrint\Restricted
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsRunInBackground_UserInControlOfTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\1604
+                Value:       3, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows Defender\MpEngine\MpCloudBlockLevel
+                Value:       2, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsUpdate\AU\AutomaticMaintenanceEnabled
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Power\PowerSettings\0e796bdb-100d-47d6-a2d5-f7d2daa51f51\ACSettingIndex
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: blokeeritud veebilehed
+                Folder Id: Software\Policies\Microsoft\Edge\URLBlocklist\5
+                Value:       103, 0, 111, 0, 51, 0, 46, 0, 101, 0, 101, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsUpdate\PauseFeatureUpdatesStartTime
+                Value:       0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\W32time\TimeProviders\NtpClient\CrossSiteSyncFlags
+                Value:       2, 0, 0, 0
+                State:       Enabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\AppPrivacy\LetAppsAccessTrustedDevices_ForceDenyTheseApps
+                State:       disabled
+
+            GPO: CIS
+                Folder Id: Software\Policies\Microsoft\Windows\WindowsUpdate\DoNotConnectToWindowsUpdateInternetLocations
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+
+USER SETTINGS
+--------------
+    CN=SPETS,OU=IT-spets,OU=ettevote,DC=domain,DC=local
+    Last time Group Policy was applied: 4/30/2026 at 8:58:41 AM
+    Group Policy was applied from:      DOMAINC1.domain.local
+    Group Policy slow link threshold:   500 kbps
+    Domain Name:                        DOMAIN
+    Domain Type:                        Windows 2008 or later
+    
+    Applied Group Policy Objects
+    -----------------------------
+        Map_Network_Drive_IT
+
+    The following GPOs were not applied because they were filtered out
+    -------------------------------------------------------------------
+        Local Group Policy
+            Filtering:  Not Applied (Empty)
+
+        Local Group Policy
+            Filtering:  Not Applied (Empty)
+
+    The user is a part of the following security groups
+    ---------------------------------------------------
+        Domain Users
+        Everyone
+        BUILTIN\Users
+        BUILTIN\Administrators
+        NT AUTHORITY\INTERACTIVE
+        CONSOLE LOGON
+        NT AUTHORITY\Authenticated Users
+        This Organization
+        LOCAL
+        ITSpets
+        Domain Admins
+        Authentication authority asserted identity
+        Denied RODC Password Replication Group
+        High Mandatory Level
+        
+    The user has the following security privileges
+    ----------------------------------------------
+
+        Bypass traverse checking
+        Increase a process working set
+        Shut down the system
+        Remove computer from docking station
+        Change the time zone
+        Manage auditing and security log
+        Change the system time
+        Force shutdown from a remote system
+        Modify firmware environment values
+        Profile system performance
+        Profile single process
+        Increase scheduling priority
+        Load and unload device drivers
+        Create a pagefile
+        Adjust memory quotas for a process
+        Perform volume maintenance tasks
+        Impersonate a client after authentication
+        Create global objects
+        Create symbolic links
+        Obtain an impersonation token for another user in the same session
+
+    Resultant Set Of Policies for User
+    -----------------------------------
+
+        Software Installations
+        ----------------------
+            N/A
+
+        Logon Scripts
+        -------------
+            N/A
+
+        Logoff Scripts
+        --------------
+            N/A
+
+        Public Key Policies
+        -------------------
+            N/A
+
+        Administrative Templates
+        ------------------------
+            N/A
+
+        Folder Redirection
+        ------------------
+            N/A
+
+        Internet Explorer Browser User Interface
+        ----------------------------------------
+            N/A
+
+        Internet Explorer Connection
+        ----------------------------
+            N/A
+
+        Internet Explorer URLs
+        ----------------------
+            N/A
+
+        Internet Explorer Security
+        --------------------------
+            N/A
+
+        Internet Explorer Programs
+        --------------------------
+            N/A
